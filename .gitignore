@@ -1,0 +1,18 @@
+# 账号数据库 + 服务端运行时数据（绝不能进仓库）
+data/
+
+# 依赖
+node_modules/
+
+# 日志
+*.log
+
+# 临时调试产物（改版时的截图、CDP 驱动脚本、测试输出）
+_*.png
+_*.mjs
+_*.txt
+.chrome-prof-*
+
+# 系统垃圾
+.DS_Store
+Thumbs.db

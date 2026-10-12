@@ -1,0 +1,14 @@
+{
+  "name": "listening-lab",
+  "version": "8.0.0",
+  "private": true,
+  "description": "精听实验室 · 英语精听训练站（含轻量账号同步服务，零依赖）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/_t1.js && node tests/_t2.js && node tests/_t3.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
